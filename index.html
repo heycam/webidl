@@ -3,7 +3,7 @@
   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
   <title>Web IDL</title>
   <link href="https://www.w3.org/StyleSheets/TR/2016/W3C-ED" rel="stylesheet" type="text/css">
-  <meta content="Bikeshed version c6f50773a, updated Fri Apr 16 16:45:47 2021 -0700" name="generator">
+  <meta content="Bikeshed version 800b43329, updated Tue May 25 14:13:32 2021 -0700" name="generator">
   <link href="https://heycam.github.io/webidl/" rel="canonical">
 <style>
         pre.set {
@@ -723,7 +723,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <div class="head">
    <p data-fill-with="logo"><a class="logo" href="https://www.w3.org/"> <img alt="W3C" height="48" src="https://www.w3.org/StyleSheets/TR/2016/logos/W3C" width="72"> </a> </p>
    <h1 class="p-name no-ref" id="title">Web IDL</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2021-05-03">3 May 2021</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Editor’s Draft, <time class="dt-updated" datetime="2021-06-03">3 June 2021</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -5429,8 +5429,8 @@ corresponds to the set of all possible non-null references to objects.</p>
 The <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context">callback context</a> is a language binding specific value, and is used to store information
 about the execution context at the time the language binding specific object reference is
 converted to an IDL value.</p>
-   <p class="note" role="note"><span>Note:</span> For ECMAScript objects, the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context①">callback context</a> is used to hold a reference to the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object" id="ref-for-incumbent-settings-object">incumbent settings object</a> at the time the Object value is converted to an IDL callback
-interface type value. See <a href="#es-callback-interface">§ 3.2.16 Callback interface types</a>.</p>
+   <p class="note" role="note"><span>Note:</span> For ECMAScript objects, the <a data-link-type="dfn" href="#dfn-callback-context" id="ref-for-dfn-callback-context①">callback context</a> is used to hold a reference to the <a data-link-type="dfn" href="https://html.spec.whatwg.org/multipage/webappapis.html#incumbent-settings-object" id="ref-for-incumbent-settings-object">incumbent settings object</a> at the time the Object value is converted to an IDL
+callback interface type value. See <a href="#es-callback-interface">§ 3.2.16 Callback interface types</a>.</p>
    <p>There is no way to represent a constant object reference value for a particular <a data-link-type="dfn" href="#idl-callback-interface" id="ref-for-idl-callback-interface②">callback interface type</a> in IDL.</p>
    <p>To denote a type that includes all possible references to objects plus the <emu-val>null</emu-val> value, use a <a data-link-type="dfn" href="#dfn-nullable-type" id="ref-for-dfn-nullable-type①④">nullable type</a>.</p>
    <p>The <a data-link-type="dfn" href="#dfn-type-name" id="ref-for-dfn-type-name②②">type name</a> of a <a data-link-type="dfn" href="#idl-callback-interface" id="ref-for-idl-callback-interface③">callback interface type</a> is the <a data-link-type="dfn" href="#dfn-identifier" id="ref-for-dfn-identifier④⑦">identifier</a> of the <a data-link-type="dfn" href="#dfn-callback-interface" id="ref-for-dfn-callback-interface②⑤">callback interface</a>.</p>
@@ -17040,7 +17040,7 @@ language binding.</p>
    <dt id="biblio-dom">[DOM]
    </dt><dd>Anne van Kesteren. <a href="https://dom.spec.whatwg.org/">DOM Standard</a>. Living Standard. URL: <a href="https://dom.spec.whatwg.org/">https://dom.spec.whatwg.org/</a>
    </dd><dt id="biblio-ecma-262">[ECMA-262]
-   </dt><dd><a href="https://tc39.es/ecma262/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/">https://tc39.es/ecma262/</a>
+   </dt><dd><a href="https://tc39.es/ecma262/multipage/">ECMAScript Language Specification</a>. URL: <a href="https://tc39.es/ecma262/multipage/">https://tc39.es/ecma262/multipage/</a>
    </dd><dt id="biblio-html">[HTML]
    </dt><dd>Anne van Kesteren; et al. <a href="https://html.spec.whatwg.org/multipage/">HTML Standard</a>. Living Standard. URL: <a href="https://html.spec.whatwg.org/multipage/">https://html.spec.whatwg.org/multipage/</a>
    </dd><dt id="biblio-ieee-754">[IEEE-754]
